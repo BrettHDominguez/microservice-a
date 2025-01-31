@@ -1,0 +1,15 @@
+{
+    "family": "microservice-a",
+    "containerDefinitions": [
+      {
+        "name": "microservice-a",
+        "image": "<IMAGE_URI>",
+        "cpu": 256,
+        "memory": 512,
+        "portMappings": [
+          { "containerPort": 3000, "hostPort": 3000 }
+        ]
+      }
+    ]
+  }
+  
